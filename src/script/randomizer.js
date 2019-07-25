@@ -1,3 +1,11 @@
+import './randomizer-engine';
+import './randomizer-constants';
+import './randomizer-slot-machine-engine';
+import './randomizer-ui-generator';
+import './randomizer-ui-handler';
+import './randomizer-ui-translator';
+import './randomizer-url-builder';
+
 let randomizer = new Engine();
 let uiTranslator = new RandomizerUiTranslator();
 let soundManager = new RandomizerSoundManager();
